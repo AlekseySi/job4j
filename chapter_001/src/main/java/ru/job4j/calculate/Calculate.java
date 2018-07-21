@@ -21,7 +21,7 @@ public class Calculate {
 	*@param name Aleksey 
 	*@return Echo plus Aleksey
 	*/
-	public String echo(Spring name){
+	public String echo(Spring name) {
 		return "Echo, echo, echo : " + name;
 	}
 }
