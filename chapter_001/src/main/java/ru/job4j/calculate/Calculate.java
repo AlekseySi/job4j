@@ -1,5 +1,6 @@
 package ru.job4j.calculate;
 
+
 /**
   *Class Calculate решение задачи части 001 урок1.
   *
@@ -13,7 +14,8 @@ public class Calculate {
      * @param args - args.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World");
+
+    	System.out.println("Hello World");
     }
 
     /**
@@ -22,6 +24,7 @@ public class Calculate {
 	*@return Echo plus Aleksey
 	*/
 	public String echo(Spring name) {
+
 		return "Echo, echo, echo : " + name;
 	}
 }
