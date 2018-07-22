@@ -24,7 +24,10 @@ public class Calculate {
 	*@return Echo plus Aleksey
 	*/
 	public String echo(Spring name) {
-
-		return "Echo, echo, echo : " + name;
+          return "Echo, echo, echo : " + name;
+	}
+        public String echo(Spring name) {
+          return "Echo, echo, echo : " + name;
+	
 	}
 }
