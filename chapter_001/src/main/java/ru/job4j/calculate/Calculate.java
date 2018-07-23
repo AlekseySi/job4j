@@ -14,8 +14,13 @@ public class Calculate {
      * @param args - args.
      */
     public static void main(String[] args) {
+    	/*
+    	Calculate calc = new Calculate();
+    	String result = calc.echo("Aleksey");
+    	System.out.println(result);
+    	*/
 
-    	System.out.println("Hello World");
+		System.out.println("Hello World");
     }
 
     /**
@@ -23,11 +28,9 @@ public class Calculate {
 	*@param name Aleksey 
 	*@return Echo plus Aleksey
 	*/
-	public String echo(Spring name) {
+	public String echo(String name) {
           return "Echo, echo, echo : " + name;
-	}
-        public String echo(Spring name) {
-          return "Echo, echo, echo : " + name;
+
 	
 	}
 }
